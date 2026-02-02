@@ -1,13 +1,14 @@
-import './App.css'
+import React from 'react'
 import Header from './components/Header'
-import aside from './components/aside'
+import M_side from './components/M_side'
+import './App.css'
 
-function App() {
-
+const App = () => {
   return (
     <div className='container'>
-      <Header/><aside/>
-      <h2>hi react!!!</h2>
+      <Header/>
+      <M_side/>
+      <h2>app is here</h2>
     </div>
   )
 }

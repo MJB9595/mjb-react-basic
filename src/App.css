@@ -1,12 +1,8 @@
 h1 {
-  background-color: red;
+  background-color: aqua;
 }
 
 .container {
-  background-color: aliceblue;
-  border: 3px solid #000;
+  background-color: blueviolet;
 }
 
-aside {
-  background-color: salmon;
-}

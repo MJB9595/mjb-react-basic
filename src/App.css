@@ -1,8 +1,29 @@
-h1 {
-  background-color: aqua;
-}
 
 .container {
-  background-color: blueviolet;
+  border: 3px solid black;
 }
 
+header h3{
+  background-color: yellow;
+}
+nav h3{
+  background-color: brown;  
+}
+
+.inner {
+  padding: 10px;
+  display: flex;
+  border: 3px solid deepskyblue;
+}
+
+aside h3 {
+  background-color: bisque;
+}
+
+content h3 {
+  background-color: gray;
+}
+
+footer h3{
+  background-color: orange;
+}

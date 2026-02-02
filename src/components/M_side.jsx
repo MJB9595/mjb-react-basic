@@ -2,9 +2,9 @@ import React from 'react'
 
 const M_side = () => {
   return (
-    <div>
-        <h3>asdie is here</h3>
-    </div>
+    <aside>
+      <h3>Aside</h3>
+    </aside>
   )
 }
 

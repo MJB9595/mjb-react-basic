@@ -1,22 +1,19 @@
-import React from 'react'
-import Header from './components/Header'
-import Nav from './components/Nav'
-import Footer from './components/Footer'
-import Content from './components/Content'
-import aside from './components/M_side'
-import './App.css'
-import M_side from './components/M_side'
+import React, {useState, useEffect} from 'react'
+import axios from 'axios'
+import UserList from './components/UserList'
+import PostList from './components/PostList'
+import UserDetail from './components/UserDetail'
+import UserDetail2 from './components/UserDetail2'
 
 const App = () => {
+
   return (
-    <div className='container'>
-      <Header/>
-      <div className='inner'>
-        <M_side/>
-        <Content/>
-      </div>
-      <Nav/>
-      <Footer/>
+    <div>
+      <h1>axios</h1>
+      {/* <PostList/> */}
+      {/* <UserList/> */}
+      {/* <UserDetail/> */}
+      <UserDetail2/>
     </div>
   )
 }
